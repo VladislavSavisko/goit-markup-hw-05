@@ -640,6 +640,8 @@ ul.page-text-bord {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: var(--white);
+    margin-bottom: 16px;
+    color: #ffffff;
   }
   
   .modal-input-footer {
