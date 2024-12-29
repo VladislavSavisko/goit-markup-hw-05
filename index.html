@@ -37,6 +37,69 @@
                 <li class="contacts-item"><a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
+        <button class="burger-bth" type="button">
+            <svg class="burger-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-heroicons"></use>
+            </svg>
+        </button>
+        </div>
+
+        <div class="mobile-menu">
+            <div class="container mobile-menu-container">
+                <button class="mobile-menu-close">
+                    <svg class="mobile-close-icon" width="8" height="8">
+                        <use href="./images/icons.svg#icon-back"></use>
+                    </svg>
+                </button>
+                <nav class="mobile-menu-nav">
+                    <ul class="mobile-menu-nav-list">
+                        <li><a href="./index.html" class="mobile-menu-nav-link">Studio</a></li>
+                        <li><a href="#" class="mobile-menu-nav-item">Portfolio</a></li>
+                        <li><a href="#" class="mobile-menu-nav-item">Contacts</a></li>
+                    </ul>
+                </nav>
+                <address class="mobile-address">
+                    <ul class="mobile-address-list">
+                        <li><a href="tel:+110001111111" class="mobile-address-menu-number">+11 (000) 111-11-11</a></li>
+                        <li><a href="mailto:info@devstudio.com" class="mobile-address-menu">info@devstudio.com</a></li>
+                    </ul>
+                </address>
+                <div>
+                    <ul class="mobile-icons">
+                        <li class="list-mobile-icon">
+                            <a class="mobile-soc" href="#">
+                            <svg class="mobile-soc-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+                        <li class="list-mobile-icon">
+                            <a class="mobile-soc" href="#">
+                            <svg class="mobile-soc-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+                        <li class="list-mobile-icon">
+                            <a class="mobile-soc" href="#">
+                            <svg class="mobile-soc-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+                        <li class="list-mobile-icon">
+                            <a class="mobile-soc" href="#">
+                            <svg class="mobile-soc-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
     
@@ -103,7 +166,7 @@
         
 
         <!-- Section 3 -->
-    <section class="page-section-three">
+    <section class="page-section-three hidden">
             <div class="container">
             <h2 class="section-team">Our Team</h2>
             <ul class="page-text-bord">
@@ -233,7 +296,7 @@
         
 
     <!--section 4 -->
-    <section class="last-section">
+    <section class="last-section hidden">
     <div class="container">
         <h2 class="text-portfolio">Our Portfolio</h2>
         <ul class="page-txt-next">
@@ -327,7 +390,7 @@
     </main>
 
     <!-- Footer -->
-<footer class="footer">
+<footer class="footer hidden">
     <div class="container-footer container">
         <!-- Перша секція: Лого та текст -->
         <div class="footer-info">
@@ -339,7 +402,7 @@
         </div>
 
         <!-- Друга секція: Social media -->
-        <div class="footer-social-media">
+        <div class="footer-social-media hidden">
             <p class="media-text">Social media</p>
             <ul class="footer-list">
                 <li class="footer-social">
@@ -373,7 +436,7 @@
             </ul>
         </div>
 
-        <div class="container-form-footer">
+        <div class="container-form-footer hidden">
             <p class="text-soc-footer">Subscribe</p>
   
             <form class="footer-form">
@@ -398,7 +461,7 @@
 </footer>
  
 <!-- Modal -->
-<div class="backdrop is-open">
+<div class="backdrop hidden">
     <div class="modal">
       <button type="button" class="modal-close-btn">
         <svg class="modal-icon-btn" width="8" height="8">
